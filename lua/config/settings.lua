@@ -11,3 +11,6 @@ o.number = true
 o.relativenumber = true
 o.termguicolors = true
 -- cmd.colorscheme("slate")
+--
+--
+g.mapleader = " "
