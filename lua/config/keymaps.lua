@@ -21,3 +21,4 @@ map('i','<C-j>','<down>',default_opts)
 map('i','<C-k>','<up>',default_opts)
 map('i','<C-l>','<right>',default_opts)
 
+map('n', '<leader>hl',':nohlsearch<CR>', default_opts)
