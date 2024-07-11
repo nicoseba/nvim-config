@@ -19,6 +19,7 @@ return {
     end
 
     require("lazydev").setup()
+    -- Configuracion de lsp lua 
     require("lspconfig").lua_ls.setup({
       on_attach = on_attach,
       settings = {
@@ -27,6 +28,10 @@ return {
           workspace = { checkThirdParty = false }
         }
       }
+    })
+    -- Configuracion de inteliphense
+    require'lspconfig'.intelephense.setup({
+      on_attach = on_attach,
     })
   end
 }

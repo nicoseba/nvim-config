@@ -29,7 +29,7 @@ return {
       function()
         require('telescope.builtin').git_files({ show_untracked = true })
       end,
-      desc = "Telescope Git Files",
+      desc = "Telescope Git Files - ",
     },
     {
       "<leader>pe",
